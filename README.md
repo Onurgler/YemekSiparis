@@ -12,7 +12,7 @@ Daha sonra komut satırında, indirdiğiniz "..\YemekSiparis" dosya dizinine gel
 
 İndirme işlemleri bittikten sonra 
 
-` ionic serve ` komutu ile uygulamayı **http://localhost:8100/** üzerinde ayağa kaldırabilirsiniz.
+` ionic serve ` komutu ile uygulamayı **http://localhost:8100** üzerinde ayağa kaldırabilirsiniz.
 
 ## Proje detayı ve görselleri 
 Ana sayfada slide yaspısı ile 2 ayrı sayfa vardır.
