@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyCwtgvhr8l-U71UK10QKQkNwxV1EfhkLIs',
+    authDomain: 'mobilpro-4545.firebaseapp.com',
+    databaseURL: 'https://mobilpro-4545-default-rtdb.firebaseio.com',
+    projectId: 'mobilpro-4545',
+    storageBucket: 'mobilpro-4545.appspot.com',
+    messagingSenderId: '928657260708',
+    appId: '1:928657260708:web:493b92a4df538ad6782631',
+    measurementId: 'G-Q3VZWZQMKR'
+  }
 };
 
 /*

@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <div class="center">
+      <ion-title>My orders</ion-title>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="items">
+  <div *ngIf="items.length > 0" class="list-mini">
+    <ion-list>
+      <ion-item style="width: 350px; " >
+        <ion-label>Food Name</ion-label> 
+        <ion-label>Many</ion-label>
+        <ion-label>Total price</ion-label>
+      </ion-item>
+    </ion-list>
+    <ion-list>
+      <ion-item *ngFor="let item of items" style="width: 350px; " >
+        <ion-label>{{item.payload.doc.data().product}}</ion-label> 
+        <ion-label>{{item.payload.doc.data().number}}</ion-label>
+        <ion-label>{{item.payload.doc.data().price}}$</ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+  <div *ngIf="items.length == 0" class="empty-list">
+    Please make your first order.
+  </div>
+</ion-content>

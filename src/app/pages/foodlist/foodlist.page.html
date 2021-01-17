@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <div class="center">
+      <ion-title>Foodlist</ion-title>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="validations_form1" (ngSubmit)="onSubmit(validations_form1.value)">
+    <ion-item>
+      <h2><ion-input formControlName="product" [(ngModel)] ="cwrap" readonly></ion-input></h2>
+    </ion-item>
+    <ion-item>
+      <p >Price: 5$</p>
+      <ion-input style="color:white" formControlName="price" [(ngModel)] ="cwp" disabled></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" color="primary">Number</ion-label> 
+      <ion-input type="number" formControlName="number"></ion-input>
+    </ion-item>
+    <ion-button class="submit-btn" expand="block" type="submit" >To order</ion-button>
+  </form>
+  
+  <form [formGroup]="validations_form" (ngSubmit)="onSubmit(validations_form.value)">
+    <ion-item>
+      <h2><ion-input formControlName="product" [(ngModel)] ="ham" readonly></ion-input></h2>
+    </ion-item>
+    <ion-item>
+      <p>Price: 3$</p>
+      <ion-input style="color:white" formControlName="price" [(ngModel)] ="hamp" disabled></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" color="primary">Number</ion-label>
+      <ion-input type="number" formControlName="number"></ion-input>
+    </ion-item>
+    <ion-button class="submit-btn" expand="block" type="submit" >To order</ion-button>
+  </form>
+
+  <form [formGroup]="validations_form2" (ngSubmit)="onSubmit(validations_form2.value)">
+    <ion-item>
+      <h2><ion-input formControlName="product" [(ngModel)] ="cola" readonly></ion-input></h2>
+    </ion-item>
+    <ion-item>
+      <p>Price: 1$</p>
+      <ion-input style="color:white" formControlName="price" [(ngModel)] ="cop" disabled></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating" color="primary">Number</ion-label>
+      <ion-input type="number" formControlName="number"></ion-input>
+    </ion-item>
+    <ion-button class="submit-btn" expand="block" type="submit" >To order</ion-button>
+  </form>
+</ion-content>

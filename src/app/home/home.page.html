@@ -1,0 +1,21 @@
+<ion-tabs>
+
+  <ion-tab-bar slot="bottom" color='dark'>
+    <ion-tab-button tab="foodlist">
+      <ion-icon name="book-outline"></ion-icon>
+      <ion-label>Food List</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="orders">
+      <ion-icon name="bag-check-outline"></ion-icon>
+      <ion-label>My Orders</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button (click)="logout()">
+      <ion-icon name="log-out-outline"></ion-icon>
+      <ion-label>Logout</ion-label>
+    </ion-tab-button>
+
+  </ion-tab-bar>
+
+</ion-tabs>
