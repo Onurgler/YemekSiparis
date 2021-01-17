@@ -4,15 +4,15 @@ ionic 5 framework ile yazılmıştır.
 
 ### Projeyi çalıştırma adımları
 
-'git clone https://github.com/Onurgler/YemekSiparis.git'
+` git clone https://github.com/Onurgler/YemekSiparis.git `
 
 Daha sonra komut satırında, indirdiğiniz "..\YemekSiparis" dosya dizinine gelip 
 
-'npm install' ve 'npm audit fix' kodlarını sırayla çalıştırınız.
+` npm install ` ve ` npm audit fix ` kodlarını sırayla çalıştırınız.
 
 İndirme işlemleri bittikten sonra 
 
-'ionic serve' komutu ile uygulamayı **http://localhost:8100/** üzerinde ayağa kaldırabilirsiniz.
+` ionic serve ` komutu ile uygulamayı **http://localhost:8100/** üzerinde ayağa kaldırabilirsiniz.
 
 ## Proje detayı ve görselleri 
 Ana sayfada slide yaspısı ile 2 ayrı sayfa vardır.
